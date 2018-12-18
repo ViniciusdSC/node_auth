@@ -1,0 +1,22 @@
+{
+  "name": "node_auth",
+  "version": "1.0.0",
+  "description": "Aplicação para teste de autenticão",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Vinicius de Souza Cardoso",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "dotenv-safe": "^6.1.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.0"
+  }
+}
